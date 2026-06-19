@@ -17,4 +17,8 @@ $$S_T = S_0 \exp \left( \left( r - \frac{\sigma^2}{2} \right) T + L \cdot Z \sqr
    
 5. **Payoff & Discounting**: The option payoff (e.g., $\max(B_T - K, 0)$ for a Call) is computed for each simulated scenario, averaged out, and discounted back to present value using the risk-free rate ($r$). For our case, with a basket of 2 assets, we will have as final prices $S_T^1$ (`PETR4.SA`) and $S_T^2$ (`VALE3.SA`) and consequently, $B_T = \alpha S_T^1 + \beta S_T^2$. For this simulation, it was adopted $\alpha = 0.8$ and $\beta = 0.2$
 
-The plot
+The plot showing this convergence is given in the following figure:
+
+![Basket](Monte_Carlo_Results.png)
+
+Consequently, the fair price would be around BRL 3.56.
