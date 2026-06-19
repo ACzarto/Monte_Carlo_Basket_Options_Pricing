@@ -21,4 +21,4 @@ The plot showing this convergence is given in the following figure:
 
 ![Basket](Monte_Carlo_Results.png)
 
-Consequently, the fair price would be around BRL 3.56.
+Consequently, the fair price would be around BRL 3.56 (considering a time to maturity of 6 months and a Selic rate of 15%).
